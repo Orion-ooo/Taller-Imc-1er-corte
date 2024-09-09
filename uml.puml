@@ -1,0 +1,16 @@
+class Usuario{
+    # String nombre;
+    # String apellido;
+    # String cedula;
+    # String email;
+    # String genero;
+    # List imc;
+}
+
+class Imc{
+    - double pesoPersona;
+    - double alturaPersona;
+    - Date fecha;
+}
+
+Usuario "1" -- "*" Imc: tiene
